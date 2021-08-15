@@ -11,6 +11,11 @@
 		403F486026C93DF200751E3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403F485F26C93DF200751E3C /* ContentView.swift */; };
 		403F486226C93DF600751E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403F486126C93DF600751E3C /* Assets.xcassets */; };
 		403F486526C93DF600751E3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403F486426C93DF600751E3C /* Preview Assets.xcassets */; };
+		403F487026C93F3A00751E3C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403F486F26C93F3A00751E3C /* Home.swift */; };
+		403F487326C942F200751E3C /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403F487226C942F200751E3C /* TabButton.swift */; };
+		403F487626C9468200751E3C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403F487526C9468200751E3C /* Item.swift */; };
+		403F487926C948DE00751E3C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403F487826C948DE00751E3C /* CardView.swift */; };
+		403F487C26C9509300751E3C /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403F487B26C9509300751E3C /* Detail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		403F486126C93DF600751E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		403F486426C93DF600751E3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		403F486626C93DF600751E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		403F486F26C93F3A00751E3C /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		403F487226C942F200751E3C /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		403F487526C9468200751E3C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		403F487826C948DE00751E3C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		403F487B26C9509300751E3C /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,8 @@
 		403F485C26C93DF200751E3C /* SwiftUI_E_CommerceApp */ = {
 			isa = PBXGroup;
 			children = (
+				403F486E26C93F2A00751E3C /* Model */,
+				403F486D26C93F2600751E3C /* View */,
 				403F485D26C93DF200751E3C /* SwiftUI_E_CommerceAppApp.swift */,
 				403F485F26C93DF200751E3C /* ContentView.swift */,
 				403F486126C93DF600751E3C /* Assets.xcassets */,
@@ -67,6 +79,25 @@
 				403F486426C93DF600751E3C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		403F486D26C93F2600751E3C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				403F486F26C93F3A00751E3C /* Home.swift */,
+				403F487226C942F200751E3C /* TabButton.swift */,
+				403F487826C948DE00751E3C /* CardView.swift */,
+				403F487B26C9509300751E3C /* Detail.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		403F486E26C93F2A00751E3C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				403F487526C9468200751E3C /* Item.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +169,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				403F487626C9468200751E3C /* Item.swift in Sources */,
+				403F487C26C9509300751E3C /* Detail.swift in Sources */,
 				403F486026C93DF200751E3C /* ContentView.swift in Sources */,
+				403F487326C942F200751E3C /* TabButton.swift in Sources */,
+				403F487026C93F3A00751E3C /* Home.swift in Sources */,
+				403F487926C948DE00751E3C /* CardView.swift in Sources */,
 				403F485E26C93DF200751E3C /* SwiftUI_E_CommerceAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
