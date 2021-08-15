@@ -93,6 +93,7 @@ struct Detail: View {
             .background(
                 
                 Color(selectedItem.image)
+                    .clipShape(CustomShape())
                 // Giving hero effect for color also 色にもアニメーションを付与
                     .matchedGeometryEffect(id: "color\(selectedItem.id)", in: animation)
             )

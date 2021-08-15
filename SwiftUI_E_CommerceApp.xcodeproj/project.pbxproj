@@ -16,6 +16,7 @@
 		403F487626C9468200751E3C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403F487526C9468200751E3C /* Item.swift */; };
 		403F487926C948DE00751E3C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403F487826C948DE00751E3C /* CardView.swift */; };
 		403F487C26C9509300751E3C /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403F487B26C9509300751E3C /* Detail.swift */; };
+		403F487F26C95E0000751E3C /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403F487E26C95E0000751E3C /* CustomShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		403F487526C9468200751E3C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		403F487826C948DE00751E3C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		403F487B26C9509300751E3C /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		403F487E26C95E0000751E3C /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				403F487226C942F200751E3C /* TabButton.swift */,
 				403F487826C948DE00751E3C /* CardView.swift */,
 				403F487B26C9509300751E3C /* Detail.swift */,
+				403F487E26C95E0000751E3C /* CustomShape.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				403F487F26C95E0000751E3C /* CustomShape.swift in Sources */,
 				403F487626C9468200751E3C /* Item.swift in Sources */,
 				403F487C26C9509300751E3C /* Detail.swift in Sources */,
 				403F486026C93DF200751E3C /* ContentView.swift in Sources */,
